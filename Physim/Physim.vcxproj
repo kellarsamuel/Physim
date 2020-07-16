@@ -91,6 +91,8 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cricle1D.h" />
+    <ClInclude Include="moveable.h" />
     <QtMoc Include="drawindow.h" />
     <ClInclude Include="wholewindow.h" />
   </ItemGroup>
