@@ -86,13 +86,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="collisionwindow.cpp" />
+    <ClCompile Include="circle1D.cpp" />
     <ClCompile Include="drawindow.cpp" />
+    <QtMoc Include="collisionwindow.h" />
     <ClCompile Include="wholewindow.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cricle1D.h" />
-    <ClInclude Include="moveable.h" />
+    <ClInclude Include="circle1D.h" />
+    <ClInclude Include="mveable.h" />
     <QtMoc Include="drawindow.h" />
     <ClInclude Include="wholewindow.h" />
   </ItemGroup>

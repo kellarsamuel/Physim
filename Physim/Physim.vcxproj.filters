@@ -33,20 +33,29 @@
     <ClCompile Include="drawindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="collisionwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="circle1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="wholewindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cricle1D.h">
+    <ClInclude Include="circle1D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="moveable.h">
+    <ClInclude Include="mveable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="drawindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="collisionwindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

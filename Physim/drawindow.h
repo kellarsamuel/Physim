@@ -3,8 +3,7 @@
 #include <QWidget>
 
 
-class drawindow : public QWidget
-{
+class drawindow : public QWidget{
     Q_OBJECT
 
 public:
@@ -12,6 +11,9 @@ public:
     ~drawindow();
 
 private:
+    void paintEvent(QPaintEvent* event);
+    void timerEvent(QTimerEvent* event);
+
     int _pointX;
     int _pointY;
     int _width;
@@ -19,8 +21,4 @@ private:
     int _movementX;
     int _movementY;
     
-protected:
-    void paintEvent(QPaintEvent* event);
-    void timerEvent(QTimerEvent* event);
-
 };

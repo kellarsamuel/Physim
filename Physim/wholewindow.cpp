@@ -5,8 +5,10 @@ wholewindow::wholewindow() {
 	QGridLayout* layout = new QGridLayout;
 	drawLabel = createLabel(tr("Draw Window"));
 	draw = new drawindow;
+	collis = new collisionwindow;
 	layout->addWidget(drawLabel, 0, 1);
 	layout->addWidget(draw, 0, 2);
+	layout->addWidget(collis, 1, 0);
 	setWindowTitle(tr("Physics Simualtion"));
 	
 	setLayout(layout);
