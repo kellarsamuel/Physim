@@ -8,6 +8,7 @@ public:
 	virtual void movecenter() = 0;
 	virtual void checkbounds(int width, int hieght) = 0;
 	virtual std::tuple<int,int,int,int> getdrawinfo() = 0;
+	virtual bool checkcoll(mveable &m) = 0;
 
 protected:
 	const int _width;

@@ -14,6 +14,13 @@ void circle1D::checkbounds(int width, int height) {
     }
 }
 
+bool circle1D::checkcoll(mveable &m) {
+    if (dynamic_cast<circle1D&>(m) == NULL){
+
+    }
+    return false;
+}
+
 std::tuple<int, int, int, int> circle1D::getdrawinfo()
 {
     auto drawinfo = std::make_tuple(_posX, _posY, _width, _height);

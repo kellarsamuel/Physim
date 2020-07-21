@@ -10,6 +10,7 @@ public:
 	};
 	void movecenter();
 	void checkbounds(int width, int hieght);
+	bool checkcoll(mveable &m);
 	std::tuple<int, int, int, int> getdrawinfo();
 
 
